@@ -7,14 +7,14 @@ export default function Hero() {
       <section className="relative pt-28 pb-20 md:pt-36 md:pb-28">
         {/* Mint gradient background blob */}
         <div
-          className="absolute -top-32 -right-32 w-[700px] h-[700px] rounded-full opacity-50 blur-3xl pointer-events-none"
+          className="absolute -top-32 -right-32 w-[600px] h-[600px] rounded-full opacity-40 blur-3xl pointer-events-none"
           style={{
             background:
               "radial-gradient(circle, #86efac 0%, #6ee7b7 30%, #a7f3d0 60%, transparent 70%)",
           }}
         />
         <div
-          className="absolute top-20 -right-10 w-[400px] h-[400px] rounded-full opacity-35 blur-2xl pointer-events-none"
+          className="absolute top-20 -right-10 w-[350px] h-[350px] rounded-full opacity-30 blur-2xl pointer-events-none"
           style={{
             background:
               "radial-gradient(circle, #34d399 0%, #6ee7b7 40%, transparent 70%)",
