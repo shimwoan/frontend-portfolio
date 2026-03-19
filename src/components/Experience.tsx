@@ -180,6 +180,9 @@ export default function Experience() {
       <div className="max-w-[1100px] mx-auto px-6 md:px-12">
         <div className="flex items-center gap-4 mb-12">
           <h2 className="text-2xl font-bold">경력</h2>
+          <span className="text-sm font-medium text-[var(--color-primary)] bg-blue-50 px-3 py-1 rounded-full">
+            합 7년
+          </span>
           <div className="flex-1 h-px bg-[var(--color-border)]" />
         </div>
 
